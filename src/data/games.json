@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "A fast-paced puzzle game where you rotate a hexagon to match colored blocks.",
+    "url": "https://hextris.io/",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&q=80&w=400",
+    "tags": ["Fast", "Colors", "Addictive"]
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "url": "https://play2048.co/",
+    "category": "Casual",
+    "thumbnail": "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?auto=format&fit=crop&q=80&w=400",
+    "tags": ["Numbers", "Strategy", "Classic"]
+  },
+  {
+    "id": "chromedino",
+    "title": "Chrome Dino",
+    "description": "The classic infinite runner game when you're offline. Jump over cacti!",
+    "url": "https://chromedino.com/",
+    "category": "Action",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=400",
+    "tags": ["Infinite", "Jump", "Retro"]
+  },
+  {
+    "id": "flappybird",
+    "title": "Flappy Bird",
+    "description": "Flap your wings and avoid the pipes in this challenging arcade game.",
+    "url": "https://flappy-bird.io/",
+    "category": "Arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?auto=format&fit=crop&q=80&w=400",
+    "tags": ["Skill", "Hard", "Bird"]
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "Drive a ball in the 3D running game. Control the ball to avoid obstacles.",
+    "url": "https://www.game-designers.net/games/slope/",
+    "category": "Racing",
+    "thumbnail": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&q=80&w=400",
+    "tags": ["3D", "Speed", "Physics"]
+  }
+]
