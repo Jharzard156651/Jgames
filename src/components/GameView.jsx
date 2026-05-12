@@ -43,13 +43,17 @@ export default function GameView({ game, onClose }) {
           </div>
         </div>
 
-        <div className="flex-1 relative w-full bg-[#050505] mt-8 border-2 border-white/10 group overflow-hidden">
+        <div className="flex-1 relative w-full bg-[#0f172a] mt-8 border-2 border-white/10 group overflow-hidden">
           <div className="absolute inset-0 bg-[#00FF41]/5 pointer-events-none opacity-20" />
           <iframe
             src={game.url}
-            className="absolute inset-0 w-full h-full border-0 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl"
-            title={game.title}
+            className="absolute inset-0 w-full h-full border-0 transition-all duration-700 shadow-2xl focus:outline-none"
+            style={{ touchAction: 'none' }}
+            title={`${game.title} Emulator`}
+            allow="autoplay; fullscreen; gamepad; microphone"
             allowFullScreen
+            sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-popups allow-forms allow-downloads allow-modals allow-orientation-lock"
+            tabIndex="0"
           />
         </div>
         

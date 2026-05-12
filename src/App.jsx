@@ -44,7 +44,7 @@ export default function App() {
       />
 
       <main className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
-        {!searchQuery && activeCategory === 'All' && (
+        {!searchQuery && activeCategory === 'All' && featuredGame && (
           <Hero featuredGame={featuredGame} onPlay={setSelectedGame} />
         )}
 
