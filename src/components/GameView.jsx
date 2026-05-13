@@ -37,13 +37,25 @@ export default function GameView({ game, onClose }) {
             >
               Reset Session
             </button>
-            <button className="bg-[#00FF41] text-black px-8 py-3 text-sm font-black uppercase italic skew-badge hover:bg-white transition-colors">
+            <button 
+              onClick={() => {
+                const element = document.getElementById('game-container');
+                if (element.requestFullscreen) {
+                  element.requestFullscreen();
+                } else if (element.webkitRequestFullscreen) {
+                  element.webkitRequestFullscreen();
+                } else if (element.msRequestFullscreen) {
+                  element.msRequestFullscreen();
+                }
+              }}
+              className="bg-[#00FF41] text-black px-8 py-3 text-sm font-black uppercase italic skew-badge hover:bg-white transition-colors"
+            >
               Toggle Fullscreen
             </button>
           </div>
         </div>
 
-        <div className="flex-1 relative w-full bg-[#0f172a] mt-8 border-2 border-white/10 group overflow-hidden">
+        <div id="game-container" className="flex-1 relative w-full bg-[#0f172a] mt-8 border-2 border-white/10 group overflow-hidden">
           <div className="absolute inset-0 bg-[#00FF41]/5 pointer-events-none opacity-20" />
           <iframe
             src={game.url}

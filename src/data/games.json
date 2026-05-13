@@ -3,7 +3,7 @@
     "id": "pokemon-fire-red",
     "title": "Pokemon Fire Red",
     "description": "The definitive classic creature-collection RPG. Embark on a journey across the Kanto region to become a Pokemon Master.",
-    "url": "https://classicgame.online/games/pokemon-firered",
+    "url": "https://script.google.com/macros/s/AKfycbzEbzXxS4zazELSeJtXyLaPrJhPMEJsh2lACeG_0Ky7xTL0ewG0m1iJeU2d1K0OmeGOug/exec",
     "category": "RPG",
     "thumbnail": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?auto=format&fit=crop&q=80&w=1200",
     "tags": ["Nintendo", "Classic", "GBA"]
@@ -12,7 +12,7 @@
     "id": "pokemon-emerald-green",
     "title": "Pokemon Emerald Green",
     "description": "The enhanced version of Pokemon Ruby and Sapphire. Explore the Hoenn region and capture the legendary Rayquaza.",
-    "url": "https://classicgame.online/games/pokemon-emerald",
+    "url": "https://games.myemulator.onl/pokemon-emerald-version/",
     "category": "RPG",
     "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1200",
     "tags": ["Nintendo", "Classic", "GBA"]
@@ -21,7 +21,7 @@
     "id": "pokemon-silver-soul",
     "title": "Pokemon Silver Soul",
     "description": "Travel back to the Johto region in this legendary remake. Experience the classic silver journey with enhanced graphics and features.",
-    "url": "https://classicgame.online/games/pocket-monsters-soulsilver",
+    "url": "https://games.myemulator.onl/pocket-monsters-soulsilver/",
     "category": "RPG",
     "thumbnail": "https://images.unsplash.com/photo-1627389955609-bf011400277a?auto=format&fit=crop&q=80&w=1200",
     "tags": ["Nintendo", "Classic", "NDS"]
@@ -30,7 +30,7 @@
     "id": "pokemon-ruby",
     "title": "Pokemon Ruby",
     "description": "The landmark third-generation Pokemon game. Explore the Hoenn region, stop Team Magma, and discover the power of Groudon.",
-    "url": "https://classicgame.online/games/pokemon-ruby",
+    "url": "https://games.myemulator.onl/pokemon-ruby-version/",
     "category": "RPG",
     "thumbnail": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?auto=format&fit=crop&q=80&w=1200",
     "tags": ["Nintendo", "Classic", "GBA"]
@@ -39,7 +39,7 @@
     "id": "pokemon-platinum",
     "title": "Pokemon Platinum",
     "description": "The definitive Sinnoh experience. Venture into the Distortion World, challenge the Battle Frontier, and capture the legendary Giratina.",
-    "url": "https://classicgame.online/games/pokemon-platinum-version",
+    "url": "https://games.myemulator.onl/pokemon-platinum-version/",
     "category": "RPG",
     "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1200",
     "tags": ["Nintendo", "Classic", "NDS"]
@@ -48,16 +48,25 @@
     "id": "pokemon-black-2",
     "title": "Pokemon Black 2",
     "description": "Return to the Unova region two years later. Experience new areas, new challenges, and the climax of the Black & White saga.",
-    "url": "https://myemulator.onl/nds/pokemon-black-version-2/",
+    "url": "https://games.myemulator.onl/pokemon-black-version-2/",
     "category": "RPG",
     "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=1200",
+    "tags": ["Nintendo", "Classic", "NDS"]
+  },
+  {
+    "id": "pokemon-white-2",
+    "title": "Pokemon White 2",
+    "description": "The counterpart to Black 2. Discover the mysteries of the White Kyurem and embark on an epic adventure in Unova.",
+    "url": "https://games.myemulator.onl/pokemon-white-version-2/",
+    "category": "RPG",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1200",
     "tags": ["Nintendo", "Classic", "NDS"]
   },
   {
     "id": "pokemon-x-y",
     "title": "Pokemon X and Y",
     "description": "Step into the beautiful Kalos region, discover the mystery of Mega Evolution, and encounter the legendary Xerneas and Yveltal.",
-    "url": "https://www.gamenora.com/game/pokemon-x-y/",
+    "url": "https://www.gamenora.com/game/pokemon-x-y/play/",
     "category": "RPG",
     "thumbnail": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?auto=format&fit=crop&q=80&w=1200",
     "tags": ["Nintendo", "Classic", "3DS"]
