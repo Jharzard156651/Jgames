@@ -14,11 +14,28 @@ import Hero from './components/Hero';
 import GameCard from './components/GameCard';
 import GameView from './components/GameView';
 import gamesData from './data/games.json';
+import { SOUL_SILVER_HTML } from './constants';
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');
   const [selectedGame, setSelectedGame] = useState(null);
+
+  const handleGameAction = (game) => {
+    if (game.id === 'pokemon-silver-soul') {
+      const blob = new Blob([SOUL_SILVER_HTML], { type: 'text/html' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'pokemon-soulsilver.html';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    } else {
+      setSelectedGame(game);
+    }
+  };
 
   const filteredGames = useMemo(() => {
     return gamesData.filter((game) => {
@@ -45,7 +62,7 @@ export default function App() {
 
       <main className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
         {!searchQuery && activeCategory === 'All' && featuredGame && (
-          <Hero featuredGame={featuredGame} onPlay={setSelectedGame} />
+          <Hero featuredGame={featuredGame} onPlay={handleGameAction} />
         )}
 
         <div className="mb-24">
@@ -64,7 +81,7 @@ export default function App() {
                 <GameCard 
                   key={game.id} 
                   game={game} 
-                  onClick={() => setSelectedGame(game)} 
+                  onClick={() => handleGameAction(game)} 
                 />
               ))}
             </div>
